@@ -110,6 +110,18 @@
     "CUSTOM_FILE_NAME": {
       "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
       "required": false
+    },
+    "STATUS_COMMAND": {
+      "description": "Enter your custom Status Command status@urgroupname and so on. Default is /status.",
+      "required": false
+    },
+    "RENEWME_COMMAND": {
+      "description": "Enter your custom Renewme Command status@urgroupname and so on. Default is /renewme.",
+      "required": false
+    },
+    "LOG_COMMAND": {
+      "description": "Enter your custom Log Command status@urgroupname and so on. Default is /log.",
+      "required": false
     }
   },
   "stack": "container"
